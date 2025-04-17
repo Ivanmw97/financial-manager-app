@@ -1,3 +1,4 @@
+# Kotlin/Java/Gradle
 *.iml
 .gradle
 /local.properties
@@ -12,4 +13,30 @@
 /captures
 .externalNativeBuild
 .cxx
+
+# Android Studio
+.idea/*
+!.idea/vcs.xml
+!.idea/runConfigurations/
+
+# Jetpack Compose preview cache
+.idea/compose-*
+
+# Version Catalog (if used)
+libs.versions.toml
+
+# KMP (futuro multiplataforma)
+*.kotlin_module
+*.log
+*.lock
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Supabase (si generas funciones locales en algún momento)
+.supabase
+
+# Misc
 local.properties
