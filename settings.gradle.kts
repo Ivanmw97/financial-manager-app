@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        gradlePluginPortal()
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -8,7 +9,6 @@ pluginManagement {
             }
         }
         mavenCentral()
-        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -20,5 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "FinancialManagerApp"
-include(":androidApp")
-include(":shared")
+include(":androidApp", ":shared")
